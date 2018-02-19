@@ -1,5 +1,11 @@
-<html>
-  p {color: red}
-  small {font-size: 0.5em}
-  div {text-align: center}
-</html>
+body {
+  font-size: 0.5em;
+}
+
+h2 {
+  color: #8904B1;
+}
+
+#masthead {
+  text-align: center;
+}
