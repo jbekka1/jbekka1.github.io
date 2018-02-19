@@ -1,6 +1,6 @@
 p {
   color: purple;
-  font-size: 2.0em;
+  font-size: 1.0em;
   text-align: justify;
-  font: Arial;
+  font-family: Arial, sans-serif;
 }
