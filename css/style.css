@@ -5,3 +5,8 @@ body {
   font-family: Arial, sans-serif;
   background-color: #A0FBFE;
 }
+
+.thumbnail {
+  width: 150px;
+  height:100px;
+}
