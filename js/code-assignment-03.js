@@ -1,6 +1,6 @@
 let projectId = 1
-let projectTitle = "Map 1"
-let projecturl = true
+let projectTitle = 'Book Assignment 1'
+let projectUrl = 'http://arcg.is/2DHACvD'
 let hasThumbnail = true
 let projectKeywords = ["web gis"]
 let myNumber = 7
