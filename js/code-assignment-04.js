@@ -14,7 +14,7 @@ let geogObject = {
   title: 'Book Assignment 1',
   desc: 'An online map tour of National Parks in Utah.',
   thumb: true,
-  keyords: [
+  keywords: [
     'code04',
     'webgis',
     'jbekka1',
