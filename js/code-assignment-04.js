@@ -1,5 +1,5 @@
 // This is my array
-let myProjectArray = [
+let geogArray = [
   24,
   'http://arcg.is/2DHACvD',
   'Book Assignment 1',
@@ -8,7 +8,7 @@ let myProjectArray = [
 ]
 
 // This is my object. Each value has a corresponding property.
-let myProjectObject = {
+let geogObject = {
   id: 24,
   url: 'http://arcg.is/2DHACvD',
   title: 'Book Assignment 1',
@@ -17,7 +17,7 @@ let myProjectObject = {
 }
 
 // My array within an array (array-ception?)
-let myProjectArray = [
+let geogArray = [
   24,
   'http://arcg.is/2DHACvD',
   'Book Assignment 1',
@@ -27,7 +27,7 @@ let myProjectArray = [
 ]
 
 // This is my object within an object (object-ception?)
-let myProjectObject = {
+let geogObject = {
   id: 24,
   url: 'http://arcg.is/2DHACvD',
   title: 'Book Assignment 1',
@@ -40,6 +40,6 @@ let myProjectObject = {
   ]
 }
 
-console.log(myProjectArray[3])
-console.log(myProjectObject.desc)
-console.log(myprojectObject['desc'])
+console.log(geogArray[3]);
+console.log(geogObject.desc);
+console.log(geogObject['desc']);
