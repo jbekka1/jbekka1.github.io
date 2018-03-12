@@ -17,4 +17,3 @@ for (let i = 0; i < projects.length; i++) {
   console.log('images/ss-project-' + projects[i].id + '.png');
 if (projects[i].hasThumbnail === true) {
   console.log('images/ss-project-' + projects[i].id + '.png');
-}
