@@ -13,8 +13,9 @@ let projects = [
   project4
 ]
 for (let projectIndex = 0; projectIndex < projects.length; projectIndex++) {
-  console.log('Element ' + projectIndex + 'desc: ' + projects[projectIndex].desc);
+}
+console.log('Element ' + projectIndex + 'desc: ' + projects[projectIndex].desc);
+console.log('images/ss-project-' + projects[projectIndex].id + '.png');
+if (projects[projectIndex].hasThumbnail === true) {
   console.log('images/ss-project-' + projects[projectIndex].id + '.png');
-  if (projects[projectIndex].hasThumbnail === true) {
-    console.log('images/ss-project-' + projects[projectIndex].id + '.png')
 }
