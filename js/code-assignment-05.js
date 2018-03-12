@@ -15,7 +15,6 @@ let projects = [
 for (let i = 0; i < projects.length; i++) {
   console.log('Element ' + i + 'desc: ' + projects[i].desc);
   console.log('images/ss-project-' + projects[i].id + '.png');
-}
-if (projects[i].hasScreenshot === true) {
+if (projects[i].hasThumbnail === true) {
   console.log('images/ss-project-' + projects[i].id + '.png');
 }
