@@ -18,4 +18,4 @@ for (let i = 0; i < projects.length; i++) {
 }
 if (projects[i].hasScreenshot === true) {
   console.log('images/ss-project-' + projects[i].id + '.png');
-}
+} // need help understanding why my conditional statement is not being logged
