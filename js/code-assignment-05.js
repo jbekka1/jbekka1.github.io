@@ -12,10 +12,10 @@ let projects = [
   project3,
   project4
 ]
-for (let projectIndex = 0; projectIndex < projects.length; projectIndex++) {
+for (let i = 0; i < projects.length; i++) {
+  console.log('Element ' + i + 'desc: ' + projects[i].desc);
+  console.log('images/ss-project-' + projects[i].id + '.png');
 }
-console.log('Element ' + projectIndex + 'desc: ' + projects[projectIndex].desc);
-console.log('images/ss-project-' + projects[projectIndex].id + '.png');
-if (projects[projectIndex].hasScreenshot === true) {
-  console.log('images/ss-project-' + projects[projectIndex].id + '.png');
+if (projects[i].hasScreenshot === true) {
+  console.log('images/ss-project-' + projects[i].id + '.png');
 }
