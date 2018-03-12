@@ -13,10 +13,9 @@ let projects = [
   project4
 ]
 for (let projectIndex = 0; projectIndex < projects.length; projectIndex++) {
+}
 console.log('Element ' + projectIndex + 'desc: ' + projects[projectIndex].desc);
 console.log('images/ss-project-' + projects[projectIndex].id + '.png');
-}
-var projects = "";
-if (projects[projectIndex].hasScreenshot == true) {
+if (projects[projectIndex].hasScreenshot === true) {
   console.log('images/ss-project-' + projects[projectIndex].id + '.png');
 }
