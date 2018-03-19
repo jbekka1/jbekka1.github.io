@@ -17,7 +17,7 @@ function describeScreenshot (project) {
 function describeScreenshotSrc (project) {
   if (project.hasScreenshot === true) {
     let describeScreenshotSrc = 'images/ss-project-' + project.id + '.png'
-    return descibeScreenshotSrc
+    return describeScreenshotSrc
   }
   return 'images/no-preview.png'
 }
