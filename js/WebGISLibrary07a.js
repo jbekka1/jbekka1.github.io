@@ -36,12 +36,12 @@ $(document).ready(describeScreenshot('The page is ready!'))
 $(document).ready(describeScreenshoSrc('The page is ready!'))
 
 function describeScreenshot (i) {
-  return project[i].title
+  return projectData[i].title
 }
 
 function describeScreenshotSrc (i) {
-  if (project[i].hasScreenshot === true) {
-    return 'images/webgis-book-assignment-' + project[i].id + '.png'
+  if (projectData[i].hasScreenshot === true) {
+    return 'images/webgis-book-assignment-' + projectData[i].id + '.png'
   } else {
     return 'no-preview.png'
   }
