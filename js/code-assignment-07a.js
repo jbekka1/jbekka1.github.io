@@ -9,6 +9,3 @@ projectData[1] = {
   desc: "A data viewer showing US populaton growth through different features and widgets.",
   hasScreenshot: false
 }
-
-$(document).ready(describeScreenshot('The page is ready!'))
-$(document).ready(describeScreenshoSrc('The page is ready!'))
