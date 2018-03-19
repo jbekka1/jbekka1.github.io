@@ -16,5 +16,5 @@ for (let i = 0; i < projectData.length; i++) {
   if (projectData[i].hasScreenshot === true) {
     console.log('images/ss-project-' + projectData[i].id + '.png')
 } else {
-  console.log(images/no-preview.png)
+  console.log('images/no-preview.png')
 }
