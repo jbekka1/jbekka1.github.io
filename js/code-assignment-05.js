@@ -15,6 +15,7 @@ for (let i = 0; i < projectData.length; i++) {
   console.log('Index position ' + i + 'desc: ' + projectData[i].desc);
   if (projectData[i].hasScreenshot === true) {
     console.log('images/ss-project-' + projectData[i].id + '.png')
-} else {
-  console.log('images/no-preview.png')
+  } else {
+    console.log('images/no-preview.png')
+  }
 }
