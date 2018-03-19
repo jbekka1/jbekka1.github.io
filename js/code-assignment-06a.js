@@ -1,10 +1,10 @@
-projectData[3] = {
+projectData[0] = {
   id: 3,
   desc: "An online form allowing people to publish possible suspects in a local area.",
   hasScreenshot: true
   }
 
-projectData[4] = {
+projectData[1] = {
   id: 5,
   desc: "A data viewer showing US populaton growth through different features and widgets.",
   hasScreenshot: false
@@ -23,7 +23,7 @@ function describeScreenshotSrc (i) {
   }
 }
 
-for (let i = 3; i < projectData.length; i++) {
+for (let i = 0; i < projectData.length; i++) {
   let screenshotDescription = describeScreenshot(i)
   let screenshotSrc = describeScreenshotSrc(i)
   console.log(screenshotDescription)
