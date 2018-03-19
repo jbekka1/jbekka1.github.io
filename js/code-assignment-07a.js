@@ -17,4 +17,4 @@ for (let i = 0; i < projectData.length; i++) {
   console.log(screenshotSrc)
 }
 
-$(document).ready(console.log('The page is ready!'))
+_(document).ready(console.log('The page is ready!'))
