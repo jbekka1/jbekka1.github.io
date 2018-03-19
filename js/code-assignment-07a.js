@@ -10,5 +10,11 @@ projectData[1] = {
   hasScreenshot: false
 }
 
-$(document).ready(describeScreenshot('The page is ready!'))
-$(document).ready(describeScreenshotSrc('The page is ready!'))
+for (let i = 0; i < projectData.length; i++) {
+  let screenshotDescription = describeScreenshot(projectData[i])
+  let screenshotSrc = describeScreenshotSrc(projectData[i])
+  console.log(screenshotDescription)
+  console.log(screenshotSrc)
+}
+
+$(document).ready(console.log('The page is ready!'))
