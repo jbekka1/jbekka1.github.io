@@ -1,5 +1,4 @@
-// This is my array within an array
-let geogArray = [
+let webgisArray = [
   24,
   'http://arcg.is/2DHACvD',
   'Book Assignment 1',
@@ -7,8 +6,8 @@ let geogArray = [
   true
   ['code04', 'webgis', 'jbekka1']
 ]
-// This is my object within an object. Each value has a corresponding property.
-let geogObject = {
+
+let webgisObject = {
   id: 24,
   url: 'http://arcg.is/2DHACvD',
   title: 'Book Assignment 1',
@@ -20,6 +19,7 @@ let geogObject = {
     'jbekka1',
   ]
 }
-console.log(geogArray[3]);
-console.log(geogObject.desc);
-console.log(geogObject['desc']);
+
+console.log(webgisArray[3]);
+console.log(webgisObject.desc);
+console.log(webgisObject['desc']);
