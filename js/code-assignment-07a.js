@@ -11,9 +11,9 @@ projectData[1] = {
 }
 
 for (let i = 0; i < projectData.length; i++) {
-  let screenshotDescription = describeScreenshot(i)
+  let screenshotDescription = describeScreenshot(projectData[i])
   console.log(screenshotDescription)
-  let screenshotSrc = describeScreenshotSrc(i)
+  let screenshotSrc = describeScreenshotSrc(projectData[i])
   console.log(screenshotSrc)
 }
 
