@@ -36,7 +36,7 @@ $(document).ready(describeScreenshot('The page is ready!'))
 $(document).ready(describeScreenshoSrc('The page is ready!'))
 
 function describeScreenshot (i) {
-  return projectData[i].title
+  return projectData[i].desc
 }
 
 function describeScreenshotSrc (i) {
