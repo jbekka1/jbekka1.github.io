@@ -1,5 +1,3 @@
-let projectData = []
-
 projectData[0] = {
   id: 3,
   desc: "An online form allowing people to publish possible suspects in a local area.",
