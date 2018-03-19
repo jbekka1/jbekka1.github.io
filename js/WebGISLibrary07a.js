@@ -1,5 +1,5 @@
 function describeScreenshot (i) {
-  let describeScreenshot = 'Project ' + project.id + ' - ' + project.desc
+  let describeScreenshot = 'Project ' + project.id + ' - ' + projectData[i].desc
   return describeScreenshot
 }
 
