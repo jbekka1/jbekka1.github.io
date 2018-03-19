@@ -11,11 +11,10 @@ projectData[1] = {
 }
 
 for (let i = 0; i < projectData.length; i++) {
-  let screenshotDescription = describeScreenshot(projectData[i])
-  let screenshotSrc = describeScreenshotSrc(projectData[i])
+  let screenshotDescription = describeScreenshot(i)
   console.log(screenshotDescription)
+  let screenshotSrc = describeScreenshotSrc(i)
   console.log(screenshotSrc)
 }
 
-$(document).ready(describeScreenshot(projectData[i]))
-$(document).ready(describeScreenshot(projectData[i]))
+$(document).ready(console.log('The page is ready!'))
