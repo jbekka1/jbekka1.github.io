@@ -30,19 +30,3 @@ for (let i = 0; i < projectData.length; i++) {
   console.log(screenshotDescription)
   console.log(screenshotSrc)
 }
-
-
-$(document).ready(describeScreenshot('The page is ready!'))
-$(document).ready(describeScreenshoSrc('The page is ready!'))
-
-function describeScreenshot (i) {
-  return projectData[i].desc
-}
-
-function describeScreenshotSrc (i) {
-  if (projectData[i].hasScreenshot === true) {
-    return 'images/webgis-book-assignment-' + projectData[i].id + '.png'
-  } else {
-    return 'no-preview.png'
-  }
-}
