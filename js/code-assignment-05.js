@@ -12,7 +12,7 @@ projectData[1] = {
 }
 
 for (let i = 0; i < projectData.length; i++) {
-  console.log('Index position ' + i + 'desc: ' + projectData[i].desc);
+  console.log('Index position ' + i + ' description: ' + projectData[i].desc);
   if (projectData[i].hasScreenshot === true) {
     console.log('images/webgis-book-assignment-' + projectData[i].id + '.png')
   } else {
