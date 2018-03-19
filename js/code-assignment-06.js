@@ -4,7 +4,7 @@ projectData[0] = {
   hasScreenshot: true
 }
 projectData[1] = {
-  id: 4,
+  id: 5,
   desc: "A data viewer showing US populaton growth through different features and widgets.",
   hasScreenshot: true
 }
@@ -16,7 +16,7 @@ function describeScreenshot (project) {
 
 function describeScreenshotSrc (project) {
   if (project.hasScreenshot === true) {
-    let describeScreenshotSrc = 'images/ss-project-' + project.id + '.png'
+    let describeScreenshotSrc = 'images/webgis-book-assignment-' + project.id + '.png'
     return describeScreenshotSrc
   }
   return 'images/no-preview.png'
