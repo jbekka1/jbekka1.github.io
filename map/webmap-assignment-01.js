@@ -1,5 +1,5 @@
 //let someName = L.map('your-map-div-id').setView([yourLat, yourLon], yourZoom)
-let glenCanyon = L.map('jasminesmapid').setView([37.057563, -111.255357], 11)
+let glenCanyon = L.map('jasminesmapid').setView([39.11748, -105.7435], 11)
 let basemapUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 L.tileLayer(basemapUrl).addTo(glenCanyon)
 let glenCanyonDam = L.marker([36.936092, -111.484053], {color: 'green'}).addTo(glenCanyon)
