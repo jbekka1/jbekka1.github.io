@@ -3,7 +3,7 @@ let webgisArray = [
   'http://arcg.is/2DHACvD',
   'Book Assignment 1',
   'An online map tour of National Parks in Utah.',
-  true
+  true,
   ['code04', 'webgis', 'jbekka1']
 ]
 
