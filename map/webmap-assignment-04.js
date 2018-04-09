@@ -1,5 +1,5 @@
 //let someName = L.map('your-map-div-id').setView([yourLat, yourLon], yourZoom)
-let coloradoMap = L.map('jasminesmapid').setView([39.11748, -105.7435], 7)
+let coloradoMap = L.map('jasminesmapid').setView([39.951121, -105.294346], 16)
 let basemapUrl ="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"
 L.tileLayer(basemapUrl).addTo(coloradoMap)
 
@@ -14,4 +14,4 @@ let stateStyle = function () {
 let stateOptions = {
   style: stateStyle
 }
-L.geoJSON(coloradoVegetation, stateOptions).addTo(coloradoMap)
+L.geoJSON(coloradoRockClimbing, stateOptions).addTo(coloradoMap)
