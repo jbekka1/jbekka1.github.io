@@ -15,3 +15,5 @@ let roadtripBasemaps = {
 L.control.layers(roadtripBasemaps).addTo(summerRoadtrip)
 
 let carsonNationalForest = L.marker([36.521275, -106.190435]).addTo(summerRoadtrip)
+
+let dayOne = L.polyline([])
