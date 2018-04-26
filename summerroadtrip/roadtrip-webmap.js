@@ -14,18 +14,25 @@ let roadtripBasemaps = {
 }
 L.control.layers(roadtripBasemaps).addTo(summerRoadtrip)
 
-let batonRouge = L.marker([30.445832, -91.15766]).addTo(summerRoadtrip)
-let carsonNationalForest = L.marker([36.521275, -106.190435]).addTo(summerRoadtrip)
-let rockyMountain = L.marker([40.398856, -105.724774]).addTo(summerRoadtrip)
-let grandTeton = L.marker([43.733002, -110.678657]).addTo(summerRoadtrip)
-let yellowstone = L.marker([44.629573, -110.584736]).addTo(summerRoadtrip)
-let glacier = L.marker([48.634361, -113.707904]).addTo(summerRoadtrip)
-let banff = L.marker([51.508743, -116.011637]).addTo(summerRoadtrip)
-let northCascades = L.marker([48.822779, -121.338138]).addTo(summerRoadtrip)
-let olympic = L.marker([47.757053, -123.625476]).addTo(summerRoadtrip)
-let mtRainier = L.marker([46.910499, -121.679636]).addTo(summerRoadtrip)
-let cratersOfTheMoon = L.marker([43.161917, -113.478357]).addTo(summerRoadtrip)
-let arches = L.marker([38.724733, -109.602418]).addTo(summerRoadtrip)
+let myTentIcon = L.icon({
+  iconUrl: 'camping-tent-icon.PNG',
+  iconSize: [60, 50], // size of the icon
+  iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+  popupAnchor: [0, -20] // point from which the popup should open relative to the iconAnchor
+});
+
+let batonRouge = L.marker([30.445832, -91.15766], {icon: myTentIcon}).addTo(summerRoadtrip)
+let carsonNationalForest = L.marker([36.521275, -106.190435], {icon: myTentIcon}).addTo(summerRoadtrip)
+let rockyMountain = L.marker([40.398856, -105.724774], {icon: myTentIcon}).addTo(summerRoadtrip)
+let grandTeton = L.marker([43.733002, -110.678657], {icon: myTentIcon}).addTo(summerRoadtrip)
+let yellowstone = L.marker([44.629573, -110.584736], {icon: myTentIcon}).addTo(summerRoadtrip)
+let glacier = L.marker([48.634361, -113.707904], {icon: myTentIcon}).addTo(summerRoadtrip)
+let banff = L.marker([51.508743, -116.011637], {icon: myTentIcon}).addTo(summerRoadtrip)
+let northCascades = L.marker([48.822779, -121.338138], {icon: myTentIcon}).addTo(summerRoadtrip)
+let olympic = L.marker([47.757053, -123.625476], {icon: myTentIcon}).addTo(summerRoadtrip)
+let mtRainier = L.marker([46.910499, -121.679636], {icon: myTentIcon}).addTo(summerRoadtrip)
+let cratersOfTheMoon = L.marker([43.161917, -113.478357], {icon: myTentIcon}).addTo(summerRoadtrip)
+let arches = L.marker([38.724733, -109.602418], {icon: myTentIcon}).addTo(summerRoadtrip)
 
 let tripOnelatlngs = [
   [30.445832, -91.15766],
