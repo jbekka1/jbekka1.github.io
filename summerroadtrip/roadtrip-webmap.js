@@ -15,11 +15,11 @@ let roadtripBasemaps = {
 L.control.layers(roadtripBasemaps).addTo(summerRoadtrip)
 
 let campsiteTent = L.icon({
-  iconUrl: 'camping-tent-icon.PNG',
+  iconUrl: 'camping-tent-icon-11.PNG',
   iconSize: [55, 45], // size of the icon
   iconAnchor: [30, 25], // point of the icon which will correspond to marker's location
   popupAnchor: [0, -15] // point from which the popup should open relative to the iconAnchor
-  });
+});
 
 let batonRouge = L.marker([30.445832, -91.15766], {icon: campsiteTent}).addTo(summerRoadtrip)
 let carsonNationalForest = L.marker([36.521275, -106.190435], {icon: campsiteTent}).addTo(summerRoadtrip)
