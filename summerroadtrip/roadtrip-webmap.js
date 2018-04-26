@@ -15,7 +15,7 @@ let roadtripBasemaps = {
 L.control.layers(roadtripBasemaps).addTo(summerRoadtrip)
 
 let campsiteTent = L.icon({
-  iconUrl: 'camping-tent-icon-11.PNG',
+  iconUrl: "camping-tent-icon.png",
   iconSize: [55, 45], // size of the icon
   iconAnchor: [30, 25], // point of the icon which will correspond to marker's location
   popupAnchor: [0, -15] // point from which the popup should open relative to the iconAnchor
